@@ -11,7 +11,7 @@ export declare class NutritionFactsBuilder {
     private _sugar;
     constructor(servingSize: number, servings: number);
     withCalories(value: number): this;
-    withCars(value: number): this;
+    withCarbs(value: number): this;
     withSodium(value: number): this;
     withFat(value: number): this;
     withFiber(value: number): this;

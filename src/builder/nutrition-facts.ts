@@ -20,7 +20,7 @@ export class NutritionFacts {
     }
 
 
-    public get calories(): number {
+    get calories(): number {
         return this._calories;
     }
 

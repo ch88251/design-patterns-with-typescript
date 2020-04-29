@@ -22,7 +22,7 @@ export class NutritionFactsBuilder {
         return this;
     }
 
-    public withCars(value: number) {
+    public withCarbs(value: number) {
         this._carbohydrates = value;
         return this;
     }
